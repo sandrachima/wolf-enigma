@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Werewolf Tracker</title>
+  <link rel="stylesheet" href="more.css">
+  <script src="more.js"></script>
+</head>
+<body>
+  <div class="container">
+    <h1>Were<span>wolf</span> Trac<span>ker</span></h1>
+    <form>
+      <label for="name">Name:</label>
+      <input type="text"id="name">
+      <button type="button" onclick="createWerewolf()">Create Werewolf</button>
+    </form>
+    <br>
+    <div id="werewolf-container">
+      <h2>Werewolf:</h2>
+      <p id="werewolf-info">No werewolf created</p>
+      <button type="button" onclick="transform()">Transform</button>
+      <button type="button" onclick="revert()">Revert</button>
+      <br>
+      
+      <h2>Activities:</h2>
+      <ul id="activities-list"></ul>
+      <form>
+        <input type="text" id="activity-input" placeholder="Enter activity">
+        <button type="button" onclick="addActivity()">Add Activity</button>
+      </form>
+    </div>
+  </div>
+</body>
+</html>
+
+
+
+
+  

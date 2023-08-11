@@ -1,0 +1,86 @@
+
+
+* {
+    box-sizing: border-box;
+    background: rgb(76, 76, 202);
+}
+  
+.container {
+    border: 5px ridge rgb(76, 76, 202);;
+    width: 720px;
+    height: 520px;
+    margin-left: auto;
+    margin-right: auto;
+    background:rgb(76, 76, 202);
+    margin-top: 15vh;
+    padding: 15px;
+    
+   
+}
+  
+.container:hover{
+    color: beige;
+}
+
+
+h1{
+    text-align: center;
+    font-weight: 800;
+    font-size: 35px;
+    margin-right: 70px;
+    text-shadow: 3px 3px 3px  black;
+}
+
+span{
+color: white;
+
+}
+  
+.one{
+    color: #fff;
+    text-shadow: 1px 2px  white;
+}
+    
+input[type=text] {
+    padding: 10px;
+    border-color: black;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    display: block;
+}
+    
+input[type=button] {
+    background-color:rgb(76, 76, 202);
+    color: white;
+    padding: 10px;
+    margin-top: 10px;
+    border: none;
+    cursor: pointer;
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+    
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+    
+li {
+    background-color: rgb(76, 76, 202);
+    padding: 10px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+    
+li:hover {
+    background-color: #ddd;
+}
+    
+.transformed {
+    color: red;
+}
